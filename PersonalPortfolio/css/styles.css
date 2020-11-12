@@ -1,0 +1,266 @@
+/*
+
+Original Author: Joshua Novikoff
+Date Created: 5/2/19
+Version: 1.6
+Date Last Modified: 10/23/19
+Modified by: Joshua Novikoff
+Modification log: Documented code,
+				  Made minor adjustments
+
+
+ 
+*/
+
+/*=============================
+    Font Family Declerations 
+=============================*/
+@font-face {
+    font-family: 'bonvenocflight';
+    src: url('../fonts/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('../fonts/BonvenoCF-Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*===================================
+Horizontal Navigation Styles
+===================================*/
+nav{
+	font-family: 'bonvenocflight', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	width: 100%;
+	display: block;	
+	text-align: center;
+	background-color: #506C64;
+}
+nav ul{	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul li{
+	border-bottom: solid 1px black;
+	padding: 5px 0px 5px 0px;
+}
+nav a:link, a:visited{
+	color: #9CC5A1;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+/*===================================
+Contact Link Styles
+===================================*/
+.contact a:link, a:active{
+	color: #49A078;
+}
+.contact a:visited{
+	color: blue;
+}
+
+/*=========================
+Giantbulb Unlimited Link
+=========================*/
+.giantbulb a:link, a:active{
+	color: #49A078;
+}
+.giantbulb a:visited{
+	color: rgb(255, 255, 255);
+}
+
+/*===================================
+Body, Header and Paragraph Styles
+===================================*/
+h1{	
+  font-family: 'Josefin Sans', Times, Arial, sans-serif;
+	color:#FFFFFF;
+	display: block;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+#knowledge {
+	text-align: center;
+	list-style: inside;
+}
+body {
+	color:#FFFFFF;	
+	font-family: Tahoma, Verdana, Geneva, Arial;
+	background: linear-gradient(rgba(2,0,36,1) 0%, rgba(33,104,105,1) 71%, rgba(0,117,112,1) 100%) fixed;
+	margin: 0 10%;
+}
+p{
+	text-align: center;
+	font-family: 'IBM Plex Mono', Courier, Verdana, monospace;
+}
+
+h2 {
+	text-align: center;
+  color: #9CC5A1;
+  font-size: 1em;
+}
+
+/*==============
+Footer Styles
+================*/
+footer{
+	border-top: 1px solid #FFFFFF;
+	font-size: 15px;
+	text-align: center;
+}
+
+/*==========
+Image Styles
+==========*/
+#self{
+	display: none;
+}
+
+/*=========================
+Contact Form Styles
+=========================*/
+div.form{
+	display: block;
+	text-align: center;
+}
+form{
+	font-family: 'IBM Plex Mono', Courier, Verdana, monospace;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+textarea{
+	box-sizing: border-box;
+	width: 100%;
+}
+fieldset{
+	margin-bottom: 1em;
+}
+
+/*===============
+Desktop Styles
+=================*/
+@media screen and (min-width:641px){
+	
+/*==================
+Contact Form Styles
+===================*/
+div.form{
+	display: block;
+	text-align: center;
+}
+fieldset{
+	margin: auto;
+}
+form{	
+	font-family: 'IBM Plex Mono', Courier, Verdana, monospace;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/*===================================
+Body, Header and Paragraph Styles
+===================================*/
+body {	
+	font-family: Tahoma, Verdana, Geneva, Arial;
+	background-image: url(../images/background1.png);
+	margin: 0 10%;
+}
+#knowledge {
+	text-align: center;
+	list-style: inside;
+}
+p{
+	text-align: center;
+	font-family: 'IBM Plex Mono', Courier, Verdana, monospace;
+}
+h1{
+	display: block;
+  text-align: center;
+  font-family: 'Josefin Sans', Times, Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+h2 {
+	text-align: center;
+	color: #9CC5A1;
+	font-size: 1em;
+}
+
+/*==========
+Image Styles
+==========*/
+#self{
+	margin-top: 1em;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*==============
+Span Styles
+================*/
+span{
+	color: #9CC5A1;
+}
+
+/*==============
+Footer Styles
+================*/
+footer{
+	font-size: 16px;
+	text-align: center;
+}
+
+/*===================================
+Horizontal Navigation Styles
+===================================*/
+nav a:link, a:visited{
+	color: #9CC5A1;
+}
+nav a:hover{
+	color: #000000;
+}
+nav{
+	font-family: 'bonvenocflight', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	background-color: #506C64;
+	width: 100%;	
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;	
+}
+nav li a{
+	text-decoration: none;	
+	padding: 10px;
+}
+nav ul {
+	list-style: none;	
+	margin: 0;
+	padding: 15px;
+}
+nav > ul li{
+	display: inline;
+}
+
+/*===================================
+Contact Link Styles
+===================================*/
+.contact a:link, a:active{
+	color: #49A078;
+}
+.contact a:visited{
+	color: blue;
+}
+
+}
