@@ -279,7 +279,6 @@ Table Styles
 
 table.pricingTable {
 	margin: auto;
-	margin-bottom: 2em;
   border: 2px solid #000000;
   text-align: left;
   border-collapse: collapse;
@@ -291,6 +290,7 @@ table.pricingTable td, table.pricingTable th {
 table.pricingTable tbody td {
 	background-color: rgb(107, 80, 108);
   font-size: 14px;
+  color: #ffffff
 }
 table.pricingTable thead {
   background: linear-gradient(to bottom, #a576b8 0%, #a95ba5 66%, rgb(160, 73, 153) 100%);
@@ -304,10 +304,22 @@ table.pricingTable thead th {
 table.pricingTable thead th:first-child {
   border-left: none;
 }
-
+table.pricingTable tfoot{
+	color:#FFFFFF
+}
 /*==========
 Main Styles
 ==========*/
+
+.embed-container { 
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+max-width: 100%; } 
+
+.embed-container iframe, .embed-container object, .embed-container embed 
+{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 main{
 	width: 100%;
@@ -386,7 +398,7 @@ Image Styles
 	filter: invert(100%);
 }
 .carousel-control-next{
-	filter: invert(100%);
+	filter: invert(100%);	
 }
 
 /*==============

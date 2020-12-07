@@ -46,12 +46,6 @@ function allFilled() {
 }
 
 /* Custom JQuery Scripting */
-$("h1").mouseenter (function() {
-    $("h1").animate({fontSize: "3em"},1000);
-});
-$("h1").mouseleave (function() {
-    $("h1").animate({fontSize: "2em"},1000);
-});
 $(window).on('load', function() {
     $("span").animate({fontSize: "+=10px"});
 });
