@@ -175,6 +175,7 @@ body {
 	margin: 0 10%;
 }
 #knowledge {
+	padding: 0;
 	text-align: center;
 	list-style: inside;
 }
